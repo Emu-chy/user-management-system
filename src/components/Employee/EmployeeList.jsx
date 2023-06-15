@@ -39,7 +39,9 @@ const EmployeeList = ({ user, value, search, searchedUser }) => {
                                               <TableCell align="center">{user.district}</TableCell>
                                               <TableCell>
                                                   <Link to={`/details/${user.empID}`}>
-                                                      <Button>Details</Button>
+                                                      <Button color="secondary" variant="contained">
+                                                          Details
+                                                      </Button>
                                                   </Link>
                                               </TableCell>
                                           </TableRow>
@@ -68,7 +70,7 @@ const EmployeeList = ({ user, value, search, searchedUser }) => {
                                               </TableCell>
                                               <TableCell align="center">{user.disvision}</TableCell>
                                               <TableCell align="center">{user.district}</TableCell>
-                                              <TableCell>
+                                              <TableCell align="center">
                                                   <Link to={`/details/${user.empID}`}>
                                                       <Button color="secondary" variant="contained">
                                                           Details

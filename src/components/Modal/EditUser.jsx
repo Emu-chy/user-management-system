@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { CloseOutlined, EditOutlined } from "@mui/icons-material";
+import { CloseOutlined } from "@mui/icons-material";
 import { Box, Button, Modal } from "@mui/material";
 import { useState } from "react";
 import InputField from "../common/InputField";
@@ -40,7 +40,7 @@ const EditUser = ({ user, setUser }) => {
         <div>
             <Box sx={{ display: "flex", justifyContent: "end", mt: 1, mr: 1 }}>
                 <Button variant="contained" size="small" onClick={handleOpen}>
-                    <EditOutlined fontSize="small" sx={{ mr: 1 }} /> Edit User
+                    Edit User
                 </Button>
             </Box>
             <Modal open={open} onClose={handleClose}>
