@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Tab, Tabs } from "@mui/material";
 
 const UsersTab = ({ value, handleChange }) => {

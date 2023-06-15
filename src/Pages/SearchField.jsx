@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { SearchOutlined } from "@mui/icons-material";
 import { InputAdornment, TextField } from "@mui/material";
 
@@ -5,7 +6,7 @@ const SearchField = ({ setSearch }) => {
     return (
         <TextField
             type="text"
-            placeholder="Search Users by data..."
+            placeholder="Search"
             size="small"
             color="secondary"
             InputProps={{

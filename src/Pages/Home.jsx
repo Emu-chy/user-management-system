@@ -3,9 +3,9 @@ import { Box } from "@mui/material";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import AddUser from "../Modal/AddUser";
-import AdminList from "../AdminList/AdminList";
-import EmployeeList from "../Employee/EmployeeList";
+import AddUser from "../components/Modal/AddUser";
+import AdminList from "../components/AdminList/AdminList";
+import EmployeeList from "../components/Employee/EmployeeList";
 import UsersTab from "./UsersTab";
 import SearchField from "./SearchField";
 
